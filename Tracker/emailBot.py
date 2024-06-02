@@ -12,7 +12,7 @@ with open('T&p per hour.csv') as myfile:
 
 with smtplib.SMTP_SSL('smtp.gmail.com',465) as server:
     server=smtplib.SMTP_SSL('smtp.gmail.com',465)
-    server.login("eess25853@gmail.com","403010Ab")
+    server.login("server_mail","server_password")
     server.send_message(msg)
 
 print("Data Sented(๑•̀ㅂ•́)و✧")
