@@ -17,7 +17,7 @@ with open('day.jpg', 'rb') as fp:
 
 with smtplib.SMTP_SSL('smtp.gmail.com',465) as server:
     server=smtplib.SMTP_SSL('smtp.gmail.com',465)
-    server.login("eess25853@gmail.com","403010Ab")
+    server.login("server_mail","password")
     server.send_message(msg)
 
 print("Graph Sented(๑•̀ㅂ•́)و✧")
